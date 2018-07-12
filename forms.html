@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML5 New Form Elements</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <body>
+        <h1>New Form Elements</h1>
+        <form>
+            <div>
+                <label>First Name</label>
+                <input type="text" placeholder="Your first name only" required autofocus>
+            </div>
+
+            <div>
+                <label>Last Name</label>
+                <input type="text" placeholder="Your Last name only">
+            </div>
+
+            <div>
+                <label>DoB</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email">
+            </div>
+
+            <div>
+                <label>Telephone</label>
+                <input type="tel">
+            </div>
+
+            <div>
+                <label>Age</label>
+                <input type="number" min="18" max="70">
+            </div>
+
+            <div>
+                <label>Rate your Skills in HTML5</label>
+                <input type="range" min="1" max="10">
+            </div>
+
+            <div>
+                <label>Book your Date</label>
+                <input type="date" min="2018-07-02" step="7">
+            </div>
+
+            <div>
+                <label>Color</label>
+                <input type="color">
+            </div>
+
+            <div>
+                <label>Progress</label>
+                <progress value="2" min="5" max="20"></progress>
+            </div>
+
+
+            <div>
+                <label>Select the Score</label>
+                <input type="number" list="score">
+                <datalist id="score">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                </datalist>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <script src=""></script>
+    </body>
+
+    </html>
